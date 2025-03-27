@@ -35,17 +35,22 @@ To set up the project environment, follow these steps:
 
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/yourusername/tweet-clustering-sbert.git
-   cd tweet-clustering-sbert
+   git clone https://github.com/gr13nka/SBert-Sociology.git
+   cd SBert-Sociology
    ```
 
 2. **Create a Virtual Environment**:
+   On nix just
+   ```bash
+   nix-shell
+   ```
+   On other systems.
    ```bash
    python3 -m venv venv
    source venv/bin/activate  # On Windows use `venv\Scripts\activate`
    ```
 
-3. **Install Required Packages**:
+4. **Install Required Packages**:
    ```bash
    pip install -r requirements.txt
    ```
@@ -101,9 +106,6 @@ With the environment set up and configured, you can run the main script to fetch
 
 Contributions to this project are welcome. If you have suggestions for improvements or encounter issues, please open an issue or submit a pull request on the [GitHub repository](https://github.com/yourusername/tweet-clustering-sbert).
 
-## License
-
-This project is licensed under the MIT License. See the `LICENSE` file for details.
 
 ## References
 
@@ -111,5 +113,3 @@ This project is licensed under the MIT License. See the `LICENSE` file for detai
 - **Sentence Transformers Documentation**: [https://sbert.net/](https://sbert.net/)
 - **Scikit-learn Documentation**: [https://scikit-learn.org/stable/](https://scikit-learn.org/stable/)
 - **Twitter Developer Portal**: [https://developer.twitter.com/en/apply-for-access](https://developer.twitter.com/en/apply-for-access)
-
-By following this guide, you can set up and run the project to analyze and cluster tweets, gaining insights into various sociological phenomena reflected in social media conversations. 
