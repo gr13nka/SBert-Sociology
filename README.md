@@ -1,11 +1,3 @@
-// ──────────────────────────────────────────────────────────────
-//  © 2025 Your Name <gran-san2003@yandex.ru>
-//  Licensed under the GNU General Public License v3.0
-//  You must cite me as the original author:
-//    [Andrey Grankov], “[SBert-Sociology],” [https://github.com/gr13nka/SBert-Sociology], [2025].
-// ──────────────────────────────────────────────────────────────
-
-
 # Tweet Clustering Using SBERT
 
 This project demonstrates how to retrieve tweets from Twitter and cluster them into distinct groups based on their semantic content using Sentence-BERT (SBERT). The approach involves fetching tweets via the Twitter API, encoding them into numerical representations with SBERT, and applying clustering algorithms to group similar tweets together.
