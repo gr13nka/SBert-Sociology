@@ -1,3 +1,11 @@
+// ──────────────────────────────────────────────────────────────
+//  © 2025 Your Name <gran-san2003@yandex.ru>
+//  Licensed under the GNU General Public License v3.0
+//  You must cite me as the original author:
+//    [Andrey Grankov], “[SBert-Sociology],” [https://github.com/gr13nka/SBert-Sociology], [2025].
+// ──────────────────────────────────────────────────────────────
+
+
 # Tweet Clustering Using SBERT
 
 This project demonstrates how to retrieve tweets from Twitter and cluster them into distinct groups based on their semantic content using Sentence-BERT (SBERT). The approach involves fetching tweets via the Twitter API, encoding them into numerical representations with SBERT, and applying clustering algorithms to group similar tweets together.
@@ -78,32 +86,14 @@ With the environment set up and configured, you can run the main script to fetch
 
 1. **Run the Script**:
    ```bash
-   python main.py --query "#YourHashtag" --max-tweets 100 --num-clusters 5
+   python main.py
    ```
 
-   - `--query`: The search term or hashtag to filter tweets.
-   - `--max-tweets`: The maximum number of tweets to retrieve.
-   - `--num-clusters`: The number of clusters to form.
-
 2. **Analyze the Output**: The script will output the clustered tweets, displaying sample tweets from each cluster. You can modify the script to save results to a file or database as needed.
-
-## Dependencies
-
-- **Python 3.9 or higher**: Ensure you have Python installed. Download it from the [official Python website](https://www.python.org/downloads/).
-
-- **Tweepy**: A Python library for accessing the Twitter API. Documentation is available on [PyPI](https://pypi.org/project/tweepy/).
-
-- **Sentence Transformers**: A framework for sentence, paragraph, and image embeddings using BERT and other transformer models. Comprehensive documentation can be found at [sbert.net](https://sbert.net/).
-
-- **Scikit-learn**: A machine learning library for Python, providing simple and efficient tools for data mining and analysis. Visit the [official website](https://scikit-learn.org/stable/) for more information.
 
 ## Contributing
 
 Contributions to this project are welcome. If you have suggestions for improvements or encounter issues, please open an issue or submit a pull request on the [GitHub repository](https://github.com/yourusername/tweet-clustering-sbert).
-
-## License
-
-This project is licensed under the MIT License. See the `LICENSE` file for details.
 
 ## References
 
