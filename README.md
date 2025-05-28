@@ -14,6 +14,18 @@ This project demonstrates how to retrieve tweets from Twitter and cluster them i
 - [License](#license)
 - [References](#references)
 
+## MacOS Installation instructions
+Download Anaconda to run code https://www.anaconda.com/download/success
+We need a regular one not a miniconda, it will download a .pkg file, open it and follow instructions.
+
+Download Github desktop https://desktop.github.com/download/
+After opening the app it will ask you to login to your guthub account or create a free account.
+After that sign in to this app.
+Press clone repository from internet, URL and paste this link https://github.com/gr13nka/SBert-Sociology.git 
+Press clone button and it will download all files.
+After it finished press button show in finder, find a .ipynb file and open it.
+
+
 ## Introduction
 
 Understanding patterns and trends in social media conversations can provide valuable insights into public opinion and emerging topics. This project leverages natural language processing techniques to analyze tweets by:
