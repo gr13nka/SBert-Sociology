@@ -15,15 +15,33 @@ This project demonstrates how to retrieve tweets from Twitter and cluster them i
 - [References](#references)
 
 ## MacOS Installation instructions
+Download Github desktop https://desktop.github.com/download/
+
+After opening the app it will ask you to login to your guthub account or create a free account.
+
+After creating or loggin in sign in to this app.
+
+Press clone repository from internet, URL and paste this link https://github.com/gr13nka/SBert-Sociology.git 
+
+Press clone button and it will download all files.
+
 Download Anaconda to run code https://www.anaconda.com/download/success
+
 We need a regular one not a miniconda, it will download a .pkg file, open it and follow instructions.
 
-Download Github desktop https://desktop.github.com/download/
-After opening the app it will ask you to login to your guthub account or create a free account.
-After that sign in to this app.
-Press clone repository from internet, URL and paste this link https://github.com/gr13nka/SBert-Sociology.git 
-Press clone button and it will download all files.
-After it finished press button show in finder, find a .ipynb file and open it.
+After install open anaconda navigator and press on JupyterLab Launch button.
+
+After load it will open a tab in your browser.
+
+On the left there will a file browser, navigate to where the project fikes are stored, by default they are in Documents/Github/Sbert-Sociology and open the main.ipynb
+
+The code will appear, press the play button on the top or click on code and press shift enter to run.
+
+These windows with code and text are called cells, while the cell is working it will show a [*] icon, after it finishes it will show a number like this [1]
+
+run the first 2 cellsIt will download neccesary code for project.
+
+Then Run the main big code it will show you the graphs and open an interactive cluster analysis tool.
 
 
 ## Introduction
