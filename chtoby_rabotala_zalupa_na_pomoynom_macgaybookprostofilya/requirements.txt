@@ -1,9 +1,0 @@
-tweepy 
-pandas
-hdbscan
-keybert
-plotly
-sympy
-sentence-transformers 
-scikit-learn
-matplotlib

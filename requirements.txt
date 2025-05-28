@@ -4,6 +4,8 @@ hdbscan
 keybert
 plotly
 sympy
+transformers 
 sentence-transformers 
 scikit-learn
 matplotlib
+torch
